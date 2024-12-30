@@ -1,6 +1,5 @@
 # Setup
 ### To install ionic cli
-- For a photo gallery project with Angular and Capacitor:
 ```sh
 npm install -g @ionic/cli native-run cordova-res
 ````
