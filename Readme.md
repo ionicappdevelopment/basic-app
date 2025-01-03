@@ -1,3 +1,4 @@
+Capacitor - official native runtime for Ionic
 # Setup
 ### To install ionic cli
 ```sh
@@ -86,7 +87,9 @@ ionic capacitor run android -l --external
 #
 #### Deploying app in android-
 ```sh
-ionic Cordova platform add android
+ionic integrations disable capacitor
+npm i -g cordova
+ionic cordova platform add android
 ionic cordova build android --prod --release // flags optional
 ```
 or
